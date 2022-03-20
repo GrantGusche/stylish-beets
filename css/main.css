@@ -68,4 +68,34 @@ figcaption {
 
 .bold {
   font-weight: bold;
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+dt {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+ul {
+  font-size: 1rem;
+  list-style-type: circle;
+}
+
+.varieties {
+  font-family: "PT Sans", sans-serif;
+}
+
+.quote {
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2rem;
 }
