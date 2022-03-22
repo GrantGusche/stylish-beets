@@ -1,25 +1,39 @@
 html {
   box-sizing: border-box;
-  background-color: #c9b5ab;
+  color: #222;
 }
 
-*,*::before, ::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 h1 {
-  color: #3f1622;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-setif;
   font-size: 1.5rem;
-  font-weight: bold;
+  color: #3f1662;
+}
+
+nav {
+  font-family: "PT Sans", sans-setif;
+  font-size: 1.125rem;
+  color: #8f2440;
 }
 
 a {
   color: #8f2440;
-  font-family: "PT Sans", sans-serif;
   text-decoration: none;
-  font-size: 1.125rem;
-  font-weight: bold;
+}
+
+a:link {
+  color: #8f2440;
 }
 
 a:hover {
@@ -27,75 +41,49 @@ a:hover {
   text-decoration: underline;
 }
 
-.no-number {
-  list-style: none;
+img {
+  width: 100%;
 }
 
-.wiki:hover {
-  color: #3f1622;
-}
-
-.wiki {
-  color: #8f2440;
-    text-decoration: underline;
-    font-size: .8rem;
-    line-height: normal;
+nav ol {
+  list-style-type: none;
 }
 
 h2 {
   color: #3f1622;
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-}
-
-figure {
-  display: inline-block;
-  text-align: center;
-}
-
-img {
-  vertical-align: top;
-  width: 100%;
-  height:auto;
 }
 
 figcaption {
+  text-align: center;
   font-style: italic;
-  font-size: .8rem
-  font-family: "PT Sans", sans-serif;
 }
 
-.bold {
+.germination {
   font-weight: bold;
-  font-size: 1.125rem;
-  font-family: "PT Sans", sans-serif;
+  font-size: 1.124rem;
 }
 
-p {
-  font-family: "PT Sans", sans-serif;
-  font-weight: normal;
-  font-size: 1rem;
+.review {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+footer, cite {
+  font-size: .8rem;
+}
+
+section li {
+  list-style: lower-greek;
+}
+
+section p {
+  font-style: italic;
 }
 
 dt {
-  font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  font-size: 1rem;
 }
 
-ul {
-  font-size: 1rem;
-  list-style-type: circle;
-}
-
-.varieties {
-  font-family: "PT Sans", sans-serif;
-}
-
-.quote {
-  font-family: "PT Sans", sans-serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 2rem;
+aside li {
+  list-style: circle;
 }
